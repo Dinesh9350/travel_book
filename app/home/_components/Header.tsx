@@ -22,16 +22,16 @@ const Header: React.FC = () => {
 
         {/* Nav - Center */}
         <nav className="absolute left-1/2 -translate-x-1/2 flex gap-10 text-sm font-medium text-white">
-            <Link href="/home" className="nav-underline">
+            <Link href="/home" className="nav-underline font-bold">
                 Home
             </Link>
-            <Link href="/about" className="nav-underline">
+            <Link href="/about" className="nav-underline font-bold">
                 About
             </Link>
-            <Link href="/services" className="nav-underline">
+            <Link href="/services" className="nav-underline font-bold">
                 Services
             </Link>
-            <Link href="/contact" className="nav-underline">
+            <Link href="/contact" className="nav-underline font-bold">
                 Contact
             </Link>
         </nav>
